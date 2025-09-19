@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hello from AWS DevOps Project!"
+    return "Hello from AWS DevOpss Project!"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
