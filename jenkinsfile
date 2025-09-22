@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: ''
+                git branch: 'main', url: 'https://github.com/shaikmasthan7y/Docker-project.git'
             }
         }
         stage('Build Docker Image') {
